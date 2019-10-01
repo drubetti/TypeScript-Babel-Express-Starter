@@ -1,10 +1,10 @@
 import express from 'express';
 import cors from 'cors';
-import helmet from 'helmet'
-import morgan from 'morgan'
+import helmet from 'helmet';
+import morgan from 'morgan';
 import compression from 'compression';
 import bodyParser from 'body-parser';
-import { errors as celebrateErrors } from 'celebrate'
+import { errors as celebrateErrors } from 'celebrate';
 import routes from './routes/index';
 import errorsHandler from './errorsHandler';
 
