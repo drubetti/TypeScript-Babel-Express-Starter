@@ -5,8 +5,8 @@ import morgan from 'morgan';
 import compression from 'compression';
 import bodyParser from 'body-parser';
 import { errors as celebrateErrors } from 'celebrate';
-import routes from './routes/index';
-import errorsHandler from './errorsHandler';
+import versionRoutes from './version/routes/index';
+import errorsHandler from './utils/errorsHandler';
 
 const { MORGAN_FORMAT = 'combined' } = process.env;
 const app = express();
@@ -16,7 +16,7 @@ app.use(cors());
 app.use(morgan(MORGAN_FORMAT));
 app.use(compression());
 app.use(bodyParser.json({ limit: '16mb' }));
-app.use('/', routes);
+app.use('/', versionRoutes);
 app.use(celebrateErrors());
 app.use(errorsHandler);
 

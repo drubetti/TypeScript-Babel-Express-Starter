@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import packageDotJson from '../../package.json';
+import packageDotJson from '../../../package.json';
 
 const { version } = packageDotJson;
 

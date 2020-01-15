@@ -1,31 +1,37 @@
 # TypeScript-Babel-Express-Starter
 
+### Requirements
+
+* Node.js 12 LTS
+
 ### Setup
 
-```bash
-npm i
+```shell script
+$ nvm use
+$ npm i
 ```
 
 ### Static Type Checking
 
-```bash
-npm run type-check
+```shell script
+$ npm run type-check
 ```
 
-### Test
-```bash
-npm t
+### Running Tests
+```shell script
+$ rm -r dist
+$ npm t
 ```
 
-### Start Dev
-
-```bash
-npm start
+### Building JavaScript code
+```shell script
+$ npm run build:js
 ```
 
+Built code will be put in dist folder.
 
-### Start Prod
+### Starting App
 
-```bash
-npm run prod
+```shell script
+$ npm start
 ```

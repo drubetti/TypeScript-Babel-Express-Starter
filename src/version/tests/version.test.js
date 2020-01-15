@@ -1,9 +1,7 @@
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
 import request from 'supertest';
-import '../lib/loadenv';
-import app from '../lib/app';
-import packageDotJson from '../package';
+import '../../../dist/utils/loadenv';
+import app from '../../../dist/app';
+import packageDotJson from '../../../package';
 
 const { version: versionTest } = packageDotJson;
 
