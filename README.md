@@ -7,7 +7,6 @@
 ### Setup
 
 ```shell script
-$ nvm use
 $ npm i
 ```
 
@@ -19,7 +18,6 @@ $ npm run type-check
 
 ### Running Tests
 ```shell script
-$ rm -r dist
 $ npm t
 ```
 
@@ -28,7 +26,7 @@ $ npm t
 $ npm run build:js
 ```
 
-Built code will be put in dist folder.
+Built code will be put in `dist` folder.
 
 ### Starting App
 

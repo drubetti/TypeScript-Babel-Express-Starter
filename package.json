@@ -1,7 +1,7 @@
 {
   "name": "typescript-babel-express-starter",
   "author": "Daniele Rubetti",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check-watch": "npm run type-check -- --watch",
@@ -9,15 +9,13 @@
     "build:types": "tsc --emitDeclarationOnly",
     "build:js": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline --copy-files",
     "start": "npm run build:js && node dist/index.js",
-    "test": "npm run build && npm run jest",
+    "test": "npm run type-check && npm run jest",
     "jest": "jest --runInBand --color --bail --verbose=true --expand ./src/"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
-    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
     "@babel/runtime": "^7.8.3",
@@ -26,7 +24,7 @@
     "jest": "^24.9.0",
     "jest-environment-node": "^24.9.0",
     "supertest": "^4.0.2",
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.5"
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.8.3",
