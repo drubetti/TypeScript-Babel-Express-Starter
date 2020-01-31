@@ -5,4 +5,4 @@ const router = Router();
 
 router.get('/', version);
 
-export default router
+export default router;

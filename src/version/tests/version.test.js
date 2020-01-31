@@ -1,6 +1,6 @@
 import request from 'supertest';
-import '../../../dist/utils/loadenv';
-import app from '../../../dist/app';
+import '../../utils/loadenv';
+import app from '../../app';
 import packageDotJson from '../../../package';
 
 const { version: versionTest } = packageDotJson;
