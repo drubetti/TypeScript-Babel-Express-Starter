@@ -1,5 +1,4 @@
 {
-  "delay": 3000,
   "ext": "ts",
-  "watch": ["src/"]
+  "watch": ["src"]
 }
