@@ -2,7 +2,7 @@
   "name": "typescript-babel-express-starter",
   "author": "Daniele Rubetti",
   "description": "An example project with TypeScript, Babel and Express",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "repository": "github:drubetti/TypeScript-Babel-Express-Starter",
   "scripts": {
@@ -22,6 +22,7 @@
     "@types/hapi__joi": "^16.0.10",
     "@types/helmet": "0.0.45",
     "@types/morgan": "^1.7.37",
+    "@types/supertest": "^2.0.8",
     "babel-jest": "^25.1.0",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
