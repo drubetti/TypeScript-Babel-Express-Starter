@@ -1,7 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import packageDotJson from '../../../package.json';
-
-const { version } = packageDotJson;
+import { version } from '../../../package.json';
 
 export default (_req: Request, res: Response, _next: NextFunction) =>
   res.send(version);
