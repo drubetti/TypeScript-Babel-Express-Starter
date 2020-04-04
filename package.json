@@ -2,7 +2,7 @@
   "name": "typescript-babel-express-starter",
   "author": "Daniele Rubetti",
   "description": "An example project with TypeScript, Babel and Express",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "license": "MIT",
   "repository": "github:drubetti/TypeScript-Babel-Express-Starter",
   "scripts": {
@@ -18,15 +18,15 @@
   "devDependencies": {
     "@types/compression": "^1.7.0",
     "@types/cors": "^2.8.6",
-    "@types/express": "^4.17.3",
+    "@types/express": "^4.17.4",
     "@types/hapi__joi": "^16.0.12",
     "@types/helmet": "0.0.45",
     "@types/morgan": "^1.9.0",
     "@types/supertest": "^2.0.8",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.2.6",
     "husky": "^4.2.3",
-    "jest": "^25.1.0",
-    "prettier": "^2.0.1",
+    "jest": "^25.2.7",
+    "prettier": "^2.0.2",
     "pretty-quick": "^2.0.1",
     "supertest": "^4.0.2",
     "typescript": "^3.8.3"
@@ -47,7 +47,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "forever": "^2.0.0",
-    "helmet": "^3.21.3",
+    "helmet": "^3.22.0",
     "morgan": "^1.10.0"
   },
   "husky": {
