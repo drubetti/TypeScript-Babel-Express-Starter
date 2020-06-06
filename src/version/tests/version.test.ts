@@ -1,4 +1,3 @@
-import '../../utils/loadenv';
 import { version } from '../../../package.json';
 import request from 'supertest';
 import app from '../../app';
