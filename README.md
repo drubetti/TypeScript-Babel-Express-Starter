@@ -2,7 +2,7 @@
 
 ### Requirements
 
-* Node.js 12 LTS
+- Node.js 14 LTS
 
 ### Setup
 
@@ -17,11 +17,13 @@ $ npm run type-check
 ```
 
 ### Running Tests
+
 ```shell script
 $ npm t
 ```
 
 ### Building JavaScript code
+
 ```shell script
 $ npm run build:js
 ```

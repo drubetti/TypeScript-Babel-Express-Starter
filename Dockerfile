@@ -1,4 +1,4 @@
-FROM node:erbium-alpine
+FROM node:fermium-alpine
 
 RUN mkdir /app
 COPY package.json /app/package.json
