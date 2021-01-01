@@ -22,19 +22,23 @@ npm run type-check
 npm t
 ```
 
-### Build JavaScript code (for production)
+### Build JavaScript code
 
 ```shell
 npm run build:js
 ```
 
-Built code will be put in `dist` folder. Execute it with:
+Built code will be put in `dist` folder.
+
+### Start App (AOT compilation)
+
+Build JavaScript code, then run:
 
 ```shell
 node dist
 ```
 
-### Start App (for development)
+### Start App (on-the-fly compilation)
 
 ```shell
 npm start
