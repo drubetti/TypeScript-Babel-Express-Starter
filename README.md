@@ -2,36 +2,40 @@
 
 ### Requirements
 
-- Node.js 14 LTS
+- Node.js 14
 
 ### Setup
 
-```shell script
-$ npm i
+```shell
+npm i
 ```
 
-### Static Type Checking
+### Static Type Check
 
-```shell script
-$ npm run type-check
+```shell
+npm run type-check
 ```
 
-### Running Tests
+### Run Tests
 
-```shell script
-$ npm t
+```shell
+npm t
 ```
 
-### Building JavaScript code
+### Build JavaScript code (for production)
 
-```shell script
-$ npm run build:js
+```shell
+npm run build:js
 ```
 
-Built code will be put in `dist` folder.
+Built code will be put in `dist` folder. Execute it with:
 
-### Starting App
+```shell
+node dist
+```
 
-```shell script
-$ npm start
+### Start App (for development)
+
+```shell
+npm start
 ```
