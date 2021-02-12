@@ -1,10 +1,10 @@
-version: "3"
+version: '3'
 
 services:
   typescript-babel-express-starter:
     image: typescript-babel-express-starter:latest
     container_name: typescript-babel-express-starter
     ports:
-      - "3000:3000"
+      - '3000:3000'
     environment:
-      - ENV_NAME=
+      - NODE_ENV=
