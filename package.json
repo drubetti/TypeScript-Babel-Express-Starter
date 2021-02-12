@@ -2,7 +2,7 @@
   "name": "typescript-babel-express-starter",
   "author": "Daniele Rubetti",
   "description": "An example project with TypeScript, Babel and Express",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "repository": "github:drubetti/TypeScript-Babel-Express-Starter",
   "scripts": {
@@ -10,6 +10,7 @@
     "build:js": "babel src --out-dir dist --extensions \".ts\" --source-maps inline",
     "build:types": "tsc --emitDeclarationOnly",
     "jest": "jest --runInBand --silent --bail --verbose --expand --passWithNoTests src",
+    "postinstall": "husky install",
     "start": "babel-node -x \".ts\" src",
     "test": "npm run type-check && npm run jest",
     "type-check": "tsc --noEmit",
@@ -33,7 +34,7 @@
     "@types/supertest": "^2.0.10",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
-    "husky": "^4.3.6",
+    "husky": "^5.0.9",
     "jest": "^26.6.3",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
@@ -50,11 +51,6 @@
     "express": "^4.17.1",
     "helmet": "^4.4.1",
     "morgan": "^1.10.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   },
   "jest": {
     "setupFiles": [
