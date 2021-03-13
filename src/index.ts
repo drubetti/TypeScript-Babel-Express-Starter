@@ -1,4 +1,3 @@
-import 'source-map-support/register';
 import './utils/loadenv';
 import app from './app';
 
