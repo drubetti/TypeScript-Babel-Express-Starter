@@ -2,7 +2,7 @@
 
 ### Requirements
 
-- Node.js 14
+- Node.js
 
 ### Setup
 
