@@ -4,6 +4,7 @@ services:
   typescript-babel-express-starter:
     image: typescript-babel-express-starter:latest
     container_name: typescript-babel-express-starter
+    restart: on-failure
     ports:
       - '3000:3000'
     environment:
