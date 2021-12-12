@@ -1,3 +1,5 @@
 .git
+.husky
 node_modules
 dist
+pm2-dev.config.js

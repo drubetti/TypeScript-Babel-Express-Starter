@@ -75,4 +75,10 @@ Once the image is build, run:
 npm run docker-start-dev
 ```
 
+or (for "watch" mode):
+
+```shell
+npm run docker-watch
+```
+
 The Docker image can be reused on code changes (the repository is mounted as a volume).
