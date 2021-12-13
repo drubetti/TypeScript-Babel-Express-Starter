@@ -53,7 +53,7 @@ Build the Docker image:
 npm run docker-build
 ```
 
-Once the image is build, run:
+Once the image is built, run:
 
 ```shell
 npm run docker-start
@@ -69,7 +69,7 @@ Build the Docker image:
 npm run docker-build-dev
 ```
 
-Once the image is build, run:
+Once the image is built, run:
 
 ```shell
 npm run docker-start-dev
