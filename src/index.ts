@@ -1,4 +1,4 @@
-import './utils/loadenv';
+import './utils/loadEnv';
 import app from './app';
 
 const { SERVER_PORT = '3000' } = process.env;
