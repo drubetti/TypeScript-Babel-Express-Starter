@@ -5,8 +5,8 @@ import morgan from 'morgan';
 import compression from 'compression';
 import bodyParser from 'body-parser';
 import { errors as celebrateErrors } from 'celebrate';
-import versionRoutes from './version/routes/index';
 import errorsHandler from './utils/errorsHandler';
+import versionRoutes from './version/routes';
 
 const { MORGAN_FORMAT = 'combined' } = process.env;
 const app = express();
