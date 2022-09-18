@@ -1,6 +1,8 @@
 {
   "extends": "@tsconfig/node16",
   "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "node16",
     "resolveJsonModule": true
   },
   "exclude": ["node_modules", "dist"]

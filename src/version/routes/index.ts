@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import version from '../middlewares/version';
+import version from '../middlewares/version.js';
 
 const router = Router();
 

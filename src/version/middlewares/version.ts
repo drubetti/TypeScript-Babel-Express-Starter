@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { version } from '../../../package.json';
+import Package from '../../../package.json' assert { type: 'json' };
 
 export default (_req: Request, res: Response, _next: NextFunction) =>
-  res.send(version);
+  res.send(Package.version);

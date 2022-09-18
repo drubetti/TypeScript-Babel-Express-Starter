@@ -3,6 +3,7 @@
     [
       "@babel/preset-env",
       {
+        "modules": false,
         "targets": {
           "node": true
         }
@@ -13,7 +14,7 @@
   "plugins": [
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-transform-runtime",
-    "source-map-support"
+    "@babel/plugin-syntax-import-assertions"
   ],
   "sourceMaps": "inline"
 }

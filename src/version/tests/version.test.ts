@@ -1,11 +1,11 @@
-import { version } from '../../../package.json';
 import request from 'supertest';
-import app from '../../app';
+import Package from '../../../package.json';
+import app from '../../app.js';
 
 describe('Version API', () => {
   test('Should return version', async () => {
     const { status, text } = await request(app).get('/');
     expect(status).toBe(200);
-    expect(text).toBe(version);
+    expect(text).toBe(Package.version);
   });
 });

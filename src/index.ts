@@ -1,5 +1,6 @@
-import './utils/loadEnv';
-import app from './app';
+import 'source-map-support/register.js';
+import './utils/loadEnv.js';
+import app from './app.js';
 
 const { SERVER_PORT = '3000' } = process.env;
 const port = parseInt(SERVER_PORT);
