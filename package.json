@@ -6,6 +6,9 @@
   "license": "MIT",
   "repository": "github:drubetti/TypeScript-Babel-Express-Starter",
   "type": "module",
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
   "scripts": {
     "build": "npm run build:types && npm run build:js",
     "build:js": "babel src --out-dir dist --extensions \".ts\"",
