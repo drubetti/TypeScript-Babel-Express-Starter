@@ -1,5 +1,5 @@
 import request from 'supertest';
-import Package from '../../../package.json';
+import Package from '../../../package.json' assert { type: 'json' };
 import app from '../../app.js';
 
 describe('Version API', () => {
