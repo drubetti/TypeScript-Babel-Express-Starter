@@ -1,4 +1,4 @@
-FROM node:gallium-alpine
+FROM node:hydrogen-alpine
 
 RUN npm install -g npm
 RUN npm install -g pm2
