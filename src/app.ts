@@ -11,7 +11,7 @@ import versionRoutes from './version/routes/index.js';
 const { MORGAN_FORMAT = 'combined' } = process.env;
 const app = express();
 
-app.use((helmet as any)());
+app.use(helmet());
 app.use(cors());
 app.use(morgan(MORGAN_FORMAT));
 app.use(compression());
