@@ -1,4 +1,4 @@
-lib
-dist
-node_modules
 .env
+/dist
+/lib
+/node_modules

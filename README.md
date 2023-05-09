@@ -11,6 +11,12 @@
 npm i
 ```
 
+### Lint code
+
+```shell
+npm run lint
+```
+
 ### Static Type Check
 
 ```shell
