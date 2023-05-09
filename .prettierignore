@@ -1,0 +1,9 @@
+# Ignore all files handled by rome:
+*.js
+*.json
+*.jsx
+*.ts
+*.tsx
+
+# Ignore built files:
+/dist
