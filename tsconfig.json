@@ -1,9 +1,9 @@
 {
-  "extends": "@tsconfig/node18",
   "compilerOptions": {
-    "module": "nodenext",
-    "moduleResolution": "node16",
-    "resolveJsonModule": true
+    "composite": true,
+    "outDir": ".",
+    "resolveJsonModule": true,
+    "rootDir": "."
   },
-  "exclude": ["node_modules", "dist"]
+  "files": ["package.json"]
 }
