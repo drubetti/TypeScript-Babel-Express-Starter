@@ -2,13 +2,13 @@
   "name": "typescript-babel-express-starter",
   "author": "Daniele Rubetti",
   "description": "An example project with TypeScript, Babel and Express",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "license": "MIT",
   "repository": "github:drubetti/TypeScript-Babel-Express-Starter",
   "scripts": {
     "build": "npm run build:types && npm run build:js",
     "build:js": "babel src --out-dir dist --extensions \".ts\"",
-    "build:types": "tsc --emitDeclarationOnly",
+    "build:types": "tsc -p src/tsconfig.json --emitDeclarationOnly",
     "docker-build": "docker build -t typescript-babel-express-starter .",
     "docker-build-dev": "docker build -t typescript-babel-express-starter-dev -f dev.Dockerfile .",
     "docker-start": "docker-compose -f docker-compose.yml up -d",
@@ -24,7 +24,7 @@
     "rome:lint": "rome check .",
     "start": "babel-node -x \".ts\" src",
     "test": "npm run type-check && npm run jest",
-    "type-check": "tsc --noEmit",
+    "type-check": "tsc -p src/tsconfig.json --noEmit",
     "type-check-watch": "npm run type-check -- --watch"
   },
   "devDependencies": {
