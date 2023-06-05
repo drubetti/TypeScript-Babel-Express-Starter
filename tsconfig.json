@@ -1,9 +1,9 @@
 {
+  "extends": "@tsconfig/node18",
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": ".",
-    "resolveJsonModule": true,
-    "composite": true
+    "isolatedModules": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true
   },
-  "files": ["package.json"]
+  "exclude": ["node_modules", "dist"]
 }
