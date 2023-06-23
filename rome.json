@@ -5,12 +5,13 @@
 	},
 	"linter": {
 		"enabled": true,
+		"ignore": ["dist"],
 		"rules": {
 			"recommended": true
 		}
 	},
 	"formatter": {
-		"ignore": ["package.json", "package-lock.json"],
+		"ignore": ["dist", "package.json", "package-lock.json"],
 		"indentSize": 1
 	},
 	"javascript": {
