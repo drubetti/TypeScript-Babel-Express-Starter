@@ -6,7 +6,7 @@ const errorsHandler = (
   req: Request,
   res: Response,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  _next: NextFunction
+  _next: NextFunction,
 ) => {
   const { message = '', statusCode = 500 } = err || {};
   res.status(statusCode).send({ message });
