@@ -4,7 +4,7 @@ const errorsHandler = (
   err: any,
   req: Request,
   res: Response,
-  _next: NextFunction
+  _next: NextFunction,
 ) => {
   const { message = '', statusCode = 500 } = err || {};
   res.status(statusCode).send({ message });
