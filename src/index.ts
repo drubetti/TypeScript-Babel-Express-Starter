@@ -1,4 +1,5 @@
 import 'source-map-support/register.js';
+import process from 'process';
 import './utils/loadEnv.js';
 import app from './app.js';
 
