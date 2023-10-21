@@ -1,3 +1,4 @@
+import process from 'process';
 import './utils/loadEnv';
 import app from './app';
 
