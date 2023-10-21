@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 
 const errorsHandler = (
-	// rome-ignore lint: error must be "any"
+	// biome-ignore lint: error must be "any"
 	err: any,
 	req: Request,
 	res: Response,

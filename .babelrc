@@ -1,19 +1,19 @@
 {
-  "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "node": true
-        }
-      }
-    ],
-    "@babel/preset-typescript"
-  ],
-  "plugins": [
-    "@babel/plugin-transform-class-properties",
-    "@babel/plugin-transform-runtime",
-    "source-map-support"
-  ],
-  "sourceMaps": "inline"
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"node": true
+				}
+			}
+		],
+		"@babel/preset-typescript"
+	],
+	"plugins": [
+		"@babel/plugin-transform-class-properties",
+		"@babel/plugin-transform-runtime",
+		"source-map-support"
+	],
+	"sourceMaps": "inline"
 }

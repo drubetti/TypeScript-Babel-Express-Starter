@@ -1,22 +1,25 @@
 {
-	"$schema": "./node_modules/rome/configuration_schema.json",
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"organizeImports": {
 		"enabled": false
 	},
 	"linter": {
 		"enabled": true,
-		"ignore": ["dist"],
 		"rules": {
 			"recommended": true
 		}
 	},
 	"formatter": {
-		"ignore": ["dist", "package.json", "package-lock.json"],
-		"indentSize": 1
+		"ignore": ["package.json", "package-lock.json"]
 	},
 	"javascript": {
 		"formatter": {
 			"quoteStyle": "single"
 		}
+	},
+	"vcs": {
+		"clientKind": "git",
+		"enabled": true,
+		"useIgnoreFile": true
 	}
 }
