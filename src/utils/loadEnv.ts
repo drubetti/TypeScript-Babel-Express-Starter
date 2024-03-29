@@ -1,4 +1,4 @@
-import process from 'process';
+import process from 'node:process';
 import { config } from 'dotenv';
 
 const { NODE_ENV } = process.env;

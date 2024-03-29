@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response } from 'express';
+import type { NextFunction, Request, Response } from 'express';
 
 const errorsHandler = (
 	// biome-ignore lint: error must be "any"
@@ -7,6 +7,7 @@ const errorsHandler = (
 	res: Response,
 	_next: NextFunction,
 ) => {
+	req.log.error(err);
 	const { message = '', statusCode = 500 } = err || {};
 	res.status(statusCode).send({ message });
 };
