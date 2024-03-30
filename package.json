@@ -2,7 +2,7 @@
   "name": "typescript-babel-express-starter",
   "author": "Daniele Rubetti",
   "description": "An example project with TypeScript, Babel and Express",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "license": "MIT",
   "repository": "github:drubetti/TypeScript-Babel-Express-Starter",
   "type": "module",
