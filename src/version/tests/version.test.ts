@@ -1,5 +1,5 @@
-import { version } from '../../../package.json';
 import request from 'supertest';
+import { version } from '../../../package.json';
 import app from '../../app';
 
 describe('Version API', () => {

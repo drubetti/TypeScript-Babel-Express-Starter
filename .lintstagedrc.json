@@ -1,5 +1,5 @@
 {
-	"*.{js,jsx,ts,tsx}": ["biome lint", "biome format --write"],
-	"!({package,package-lock}).json": ["biome format --write"],
+	"*.{js,jsx,ts,tsx}": ["biome check --apply"],
+	"!({package,package-lock}).json": ["biome check --apply"],
 	"*.{html,css,scss,md,yaml,yml}": ["prettier --write"]
 }

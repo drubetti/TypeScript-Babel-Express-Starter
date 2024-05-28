@@ -1,9 +1,9 @@
-import express from 'express';
-import cors from 'cors';
-import helmet from 'helmet';
-import compression from 'compression';
 import bodyParser from 'body-parser';
 import { errors as celebrateErrors } from 'celebrate';
+import compression from 'compression';
+import cors from 'cors';
+import express from 'express';
+import helmet from 'helmet';
 import errorsHandler from './utils/errorsHandler';
 import { loggerMiddleware } from './utils/logger';
 import versionRoutes from './version/routes';
