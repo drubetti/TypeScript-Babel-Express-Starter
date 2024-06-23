@@ -10,11 +10,13 @@ export default [
   ),
   eslintConfigPrettier,
   {
-    ignores: ['.env', '/dist/*', '/lib/*', 'tsconfig.tsbuildinfo'],
     languageOptions: {
       globals: {
         ...globals.node,
       },
     },
+  },
+  {
+    ignores: ['.env', 'dist/*', 'lib/*', 'tsconfig.tsbuildinfo'],
   },
 ];
