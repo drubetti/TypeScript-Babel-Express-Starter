@@ -35,7 +35,7 @@
     "@babel/plugin-transform-runtime": "^7.24.7",
     "@babel/preset-env": "^7.24.8",
     "@babel/preset-typescript": "^7.24.7",
-    "@biomejs/biome": "^1.8.2",
+    "@biomejs/biome": "^1.8.3",
     "@tsconfig/node20": "^20.1.4",
     "@types/compression": "^1.7.5",
     "@types/cors": "^2.8.17",
