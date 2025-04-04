@@ -7,4 +7,10 @@ import logger from './utils/logger.js';
 const { SERVER_PORT = '3000' } = process.env;
 const port = parseInt(SERVER_PORT);
 
-app.listen(port, () => logger.info(`Server is running on port ${port}!`));
+const onAppListen = (error?: Error) => {
+  if (error) throw error;
+
+  logger.info(`Server is running on port ${port}!`);
+};
+
+app.listen(port, onAppListen);
