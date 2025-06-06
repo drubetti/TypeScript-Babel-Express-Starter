@@ -1,10 +1,9 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-const eslint = require('@eslint/js');
-const eslintConfigPrettier = require('eslint-config-prettier');
-const globals = require('globals');
-const tsEslint = require('typescript-eslint');
+import eslint from '@eslint/js';
+import eslintConfigPrettier from 'eslint-config-prettier';
+import globals from 'globals';
+import tsEslint from 'typescript-eslint';
 
-module.exports = [
+export default [
   ...tsEslint.config(
     eslint.configs.recommended,
     ...tsEslint.configs.recommended,
