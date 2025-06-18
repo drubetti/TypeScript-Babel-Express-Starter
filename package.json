@@ -29,7 +29,7 @@
     "@babel/plugin-transform-runtime": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-typescript": "^7.27.1",
-    "@eslint/js": "^9.28.0",
+    "@eslint/js": "^9.29.0",
     "@tsconfig/node22": "22.0.2",
     "@types/compression": "^1.8.1",
     "@types/cors": "^2.8.19",
@@ -41,7 +41,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^30.0.0",
     "babel-plugin-source-map-support": "^2.2.0",
-    "eslint": "^9.28.0",
+    "eslint": "^9.29.0",
     "eslint-config-prettier": "^10.1.5",
     "globals": "^16.2.0",
     "husky": "^9.1.7",
@@ -50,7 +50,7 @@
     "prettier": "3.5.3",
     "supertest": "^7.1.1",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.33.1"
+    "typescript-eslint": "^8.34.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.27.6",
