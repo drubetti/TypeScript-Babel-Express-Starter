@@ -1,8 +1,6 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-	"organizeImports": {
-		"enabled": true
-	},
+	"assist": { "actions": { "source": { "organizeImports": "on" } } },
 	"linter": {
 		"enabled": true,
 		"rules": {
@@ -10,7 +8,12 @@
 		}
 	},
 	"formatter": {
-		"ignore": ["package.json", "package-lock.json", "tsconfig.json"]
+		"includes": [
+			"**",
+			"!**/package.json",
+			"!**/package-lock.json",
+			"!**/tsconfig.json"
+		]
 	},
 	"javascript": {
 		"formatter": {
