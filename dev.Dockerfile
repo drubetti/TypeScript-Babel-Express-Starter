@@ -1,4 +1,4 @@
-FROM node:jod-alpine
+FROM node:krypton-alpine
 
 RUN npm install -g npm
 RUN npm install -g pm2
