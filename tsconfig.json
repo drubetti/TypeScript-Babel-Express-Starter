@@ -5,7 +5,8 @@
     "module": "nodenext",
     "moduleResolution": "node16",
     "outDir": "./dist",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["jest", "node"]
   },
   "exclude": ["node_modules", "dist"]
 }
